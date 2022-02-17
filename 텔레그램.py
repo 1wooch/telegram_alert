@@ -37,7 +37,7 @@ def check_4dx():
     nullvalue2 = '</strong>]'
 
     fordx= bs.find_all('div',attrs={"class":"col-times"})
-    chatbot.sendMess('test0')
+    chatbot.sendMessage('test0')
     if(fordx):
         for i in fordx:
             if (i.find(class_='forDX')):
