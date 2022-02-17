@@ -28,4 +28,4 @@ jobs:
     
     - name: run
       run: |
-        python 텔레그램.py
+        python 4dx_용산.py
